@@ -1,0 +1,44 @@
+.toolbar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:14px;
+    flex-wrap:wrap;
+
+    padding:18px;
+}
+
+.toolbar button{
+    padding:12px 22px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#1e293b;
+    color:white;
+
+    font-size:15px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.toolbar button:hover{
+    background:#2563eb;
+}
+
+.divider{
+    width:1px;
+    height:28px;
+    background:#334155;
+}
+
+@media(max-width:700px){
+
+    .divider{
+        display:none;
+    }
+
+}

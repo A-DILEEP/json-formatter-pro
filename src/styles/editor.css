@@ -1,0 +1,14 @@
+.editor-container{
+    width:90%;
+    max-width:1200px;
+
+    margin:25px auto;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    border:1px solid #334155;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}

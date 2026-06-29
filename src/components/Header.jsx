@@ -1,11 +1,12 @@
-import React from 'react'
-import '../styles/header.css'
+import "../styles/header.css";
+
 function Header() {
   return (
-    <div>
-      
-    </div>
-  )
+    <header className="header">
+      <h1>JSON Formatter Pro</h1>
+      <p>Beautify, Minify and Validate JSON instantly.</p>
+    </header>
+  );
 }
 
-export default Header
+export default Header;

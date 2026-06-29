@@ -1,11 +1,7 @@
-import React from 'react'
 import "../styles/status.css";
-const StatusBar = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+
+function StatusBar({ status }) {
+  return <div className={`status-bar ${status.type}`}>{status.message}</div>;
 }
 
-export default StatusBar
+export default StatusBar;
