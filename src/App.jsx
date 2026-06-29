@@ -10,11 +10,12 @@ import { beautifyJson, minifyJson, validateJson } from "./utils/formatter";
 
 function App() {
   const [json, setJson] = useState(`{
-  "name": "Dileep",
-  "age": 23,
+  "name": "Json",
+  "age": 22,
   "skills": [
-    "Java",
-    "React"
+    "Formatting",
+    "Validate",
+    "Minify"
   ]
 }`);
   const [status, setStatus] = useState({
